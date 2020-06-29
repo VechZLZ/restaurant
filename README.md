@@ -1,9 +1,11 @@
 # restaurant
-项目使用MVVM模式进行设计，数据上的交换格式为JSON，后台采取分布式微服务集群架构，采取开源数据库mysql作为主要存储，使用redis非关系形数据库进行缓存数据存储，架构上支持分布式部署，允许随时扩容处理。
+项目使用MVVM模式进行设计，数据上的交换格式为JSON，后台采取分布式微服务集群架构，采取开源数据库mysql作为主要存储，使用redis非关系形数据库进行缓存数据存储，架构上支持分布式部署，允许随时扩容处理。/n
+
 本项目为web服务，无需安装，只需用户打开浏览器输入网址即可使用，手机端也可通过扫描二维码进行使用，网址如下：
 商家前台网址：http://haozheng.club/restaurant_computer_p
 商家后厨网址：http://kitchen.haozheng.club/restaurant_computer_k
 手机点餐网址：http://user.haozheng.club/restaurant_m
+
 主要实现功能：
 1.商家前台端口：
 （a允许商家对餐厅详情、订单、点餐二维码等一系列信息进行管理；
